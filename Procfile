@@ -1,1 +1,1 @@
-web: gunicorn 'ayieldsearch.wsgi'
+web: gunicorn "backend:create_app()"
